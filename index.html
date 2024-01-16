@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        *{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            height: 70px;
+            width: 100%;
+            background-color: black;
+            position: fixed;
+        }
+        label{
+            float: left;
+            color: white;
+            font-size: 50px;
+            margin-left: 160px;
+            margin-top: 5px;
+        }
+        .nav{
+            float: right;
+            padding-right: 30px;
+            margin-top: 10px;
+            margin-right: 160px;
+            background-color: darkgray;
+        }
+        .nav ul li{
+            display: inline-block;
+            /* float: left;        it is also used for making nav li */
+            color: white;
+            list-style: none;
+            margin: 0px 10px;
+            cursor: pointer;  
+            position: relative;   
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;      
+        }
+        /* .nav ul li:last-child{
+         /* left: 50px;                        it is onley used for position value */
+         /* top: 20px;   */
+         /* margin-top: 10px; */
+     
+        .nav ul li:hover{
+            transition: 0.5s;
+            background-color: rgb(138, 131, 131);
+           /* padding: 4px 0.1px; */
+        }
+        .part-1{
+            background-color: rgb(197, 218, 226);
+            width: 100%; 
+            height: 400px;
+            padding-top: 60px;
+        }
+        .text{
+            margin-top: 40px;
+            margin-left: 160px;
+            height: 350px;
+            width: 35%;
+            float: left;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+        .img1 {
+            float: right;
+            margin-top: 70px;
+            margin-right: 160px;
+        }
+      
+        .form{
+            margin-top: 40px;
+        }
+        .form button{
+            background-color: orange;
+            border: none;
+            padding: 8px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .form button:hover{
+            background-color: rgb(233, 160, 14);
+            transition: 0.5s;
+        }
+         .boxes{
+            height: 220px;
+            width: 115%;
+            margin: 0px 0px;
+            background-color: black;
+            /* background-image: url("C:/Users/shabana.ansari/Desktop/building 2.jpeg"); */
+            background-repeat: no-repeat;
+            background-size:cover;
+        } 
+        .box1,.box2,.box3{
+            display: inline-block;
+            margin: 0px 44px;
+        }
+        .part-2{
+            margin: 10px 110px;
+            margin-bottom: 50px;
+        }
+       footer{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+       }
+       .footer-box1{
+        height: 290px;
+        width: 26%;
+        float: left;
+        margin-left: 150px;
+        color: white;
+       }
+       .footer-box2{
+        height: 290px;
+        width: 30%;
+        float: left;
+        color: white;
+       }
+       .footer-box3{
+        height: 290px;
+        width: 20%;
+        float: left;
+        color: white;
+       }
+       .footer-box1,.footer-box2,.footer-box3{
+        padding-top: 30px;
+        box-sizing: border-box;
+       }
+       .bi-calendar3{
+        float: left;
+        font-size: 37px;
+        color: rgb(193, 228, 238);
+       }
+       .bi-facebook,.bi-twitter,.bi-rss-fill,.bi-google{
+        font-size: 25px;
+        margin-left: 60px;
+       }
+       .a,.b,.c,.d{
+        font-size: 19px;
+       }
+     .footer-box3 h2{
+        margin-left: 60px;
+     }
+     footer{
+        padding-left: 10px;
+        box-sizing: border-box;
+     }
+     
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <label>Bloom</label>
+        <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Service</li>
+            <li>Portfolio</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="part-1">
+        <div class="text">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequuntur nemo asperiores, voluptatem rem iste unde. Recusandae optio,<br>
+               <br>
+                 ipsum provident molestias, cum eos exercitationem tempore facilis, soluta saepe dicta eligendi? Lorem ipsum dolor sit amet.</p>
+                 <form class="form"><button>Learn more</button></form>
+        </div> 
+        <div class="img1">
+        <img src="./g.jpg" width="530px" height="250px">
+    </div>
+    </div>
+
+    <div class="part-2">
+
+        <div class="box1">
+            <h1>This is a heading</h1>
+        <div class="boxes"></div>
+        <h3>Aliquam at iatulis sapien</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur <br>
+        adipisicing elit. Ipsa, dignissimos?<br>
+        this is a fugitive area of </p>
+        <form class="form"><button>Learn more</button></form>
+    </div>
+
+    <div class="box2">
+        <div class="boxes"></div>
+        <h3>Aliquam at iatulis sapien</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur <br>
+        adipisicing elit. Ipsa, dignissimos?<br>
+        this is a fugitive area of </p>
+        <form class="form"><button>Learn more</button></form>
+        </div>
+
+        <div class="box3">
+        <div class="boxes"></div>
+        <h3>Aliquam at iatulis sapien</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur <br>
+        adipisicing elit. Ipsa, dignissimos?<br>
+        this is a fugitive area of </p>
+        <form class="form"><button>Learn more</button></form>
+        </div>
+    </div>
+        <footer>
+          <div class="footer-box1">
+            <h2>Latest Posts</h2>
+            <i class="bi bi-calendar3"></i>
+             <span style="font-size: 20px;">&nbsp Aliquam at iatulis sapien<br></span>  
+            <span>&nbsp Lorem ipsum dolor sit amet consectetur.<br></span>
+            <br>
+            <i class="bi bi-calendar3"></i>
+            <span style="font-size: 20px;">&nbsp Aliquam at iatulis sapien<br></span>            
+            <span>&nbsp Lorem ipsum dolor sit amet consectetur.<br></span>
+            <br>
+            <i class="bi bi-calendar3"></i>
+            <span style="font-size: 20px;">&nbsp Aliquam at iatulis sapien<br></span>            
+            <span>&nbsp Lorem ipsum dolor sit amet consectetur.<br></span>            
+          </div>
+          <div class="footer-box2">
+            <h2>About</h2>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, rerum accusantium. Veniam earum possimus libero, vero is laborum aperiam suscipit vitae praesentium. Architecto are veniam molestiae,<br>
+                <br>
+                 quisquam amet obcaecati tempora quos delectus? and a great 
+                 Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </span>
+          </div>
+          <div class="footer-box3">
+            <h2>Stay Connected</h2>
+           <span class="a"><i class="bi bi-facebook" style="color: rgb(37, 37, 219);"></i>&nbsp Facebook</span> 
+            <br>
+            <br>
+           <span class="b"> <i class="bi bi-twitter" style="color: blue"></i>&nbsp Twitter</span>
+            <br>
+            <br>
+           <span class="c"><i class="bi bi-rss-fill" style="color: red"></i>&nbsp RSS</span>
+            <br>
+            <br>
+           <span class="d"><i class="bi bi-google" style="color: greenyellow"></i>&nbsp Google</span> 
+          </div>
+        </footer>
+    
+</body>
+</html>
